@@ -4,8 +4,8 @@ Due to excessive administrative actions, the CTU Training Solutions preferred to
 The system must be designed and developed as an online system, that is both web-based and 
 mobile-friendly. For demonstra,on purposes, the system and database must be hosted locally.
 
-Remember that the payment of 2ckets are op2onal and not part of the requirements for the 
-Online Bus Registra2on System.
+Remember that the payment of tickets are optional and not part of the requirements for the 
+Online Bus Registration System.
 The learner can make use of bus transport in the morning and the afternoon or just in the 
 morning or just in the afternoon.
 Buses have limited space thus:
