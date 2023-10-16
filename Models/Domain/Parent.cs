@@ -18,8 +18,8 @@ namespace bus_registration.Models.Domain
 
         //Links table
 
-        [ForeignKey("Learner")]
-        public Guid LearnerId { get; set; }
+        // [ForeignKey("Learner")]
+        // public Guid LearnerId { get; set; }
 
         //Navigation
         public Learner Learner { get; set; }

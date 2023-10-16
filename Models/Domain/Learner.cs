@@ -11,7 +11,7 @@ namespace bus_registration.Models.Domain
         public Guid Id { get; set; } 
         public string LearnerName { get; set; }
         public string LearnerSurname { get; set; }
-        public string learnerCellPhoneNumber { get; set; }
+        public string LearnerCellPhoneNumber { get; set; }
         public string Grade { get; set; }
 
         //Link table

@@ -20,18 +20,18 @@ namespace bus_registration.Models.Domain
         public int BusLimit { get; set; }
         public bool ApplicationsStatus { get; set; }
         public int WaitingNumber { get; set; }
-        public DateOnly WaitingListDate { get; set; }
+        public DateTime WaitingListDate { get; set; }
 
 
         //Link
         [ForeignKey("Learner")]
         public Guid LearnerId { get; set; }
-        [ForeignKey("Route")]
-        public Guid RouteId { get; set; }
+        //[ForeignKey("Route")]
+        //public Guid RouteId { get; set; }
 
         //navigation
-        //public Learner Learner { get; set; }
-        public Route Route { get; set; }
+        public Learner Learner { get; set; }
+        // public Route Route { get; set; }
 
     }
 }

@@ -10,11 +10,12 @@ namespace bus_registration.Models.Domain
     {
         public Guid Id { get; set; }
         public string RouteName { get; set; }
-        [ForeignKey("Bus")]
-        public Guid BusId { get; set; }
+        
+        // // [ForeignKey("Bus")]
+        // // public Guid BusId { get; set; }
 
-        //Navigation property
-        public Bus Bus { get; set; }
+        // //Navigation property
+        // public Bus Bus { get; set; }
         
     }
 }

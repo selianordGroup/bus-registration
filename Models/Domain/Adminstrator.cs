@@ -12,7 +12,7 @@ namespace bus_registration.Models.Domain
         public char Initials { get; set; }
         public string SurName { get; set; }
         public string Password { get; set; }
-        public string Eamil { get; set; }
+        public string Email { get; set; }
 
         //Link table
         [ForeignKey("Learner")]
