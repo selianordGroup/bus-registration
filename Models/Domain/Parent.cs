@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,7 +8,7 @@ namespace bus_registration.Models.Domain
 {
     public class Parent
     {
-        public Guid ParentId { get; set; }
+        public Guid Id { get; set; }
         public string ParentName { get; set; }
         public string ParentSurname { get; set; }
         public string Password { get; set; }
@@ -17,6 +18,7 @@ namespace bus_registration.Models.Domain
 
         //Links table
 
+        [ForeignKey("Learner")]
         public Guid LearnerId { get; set; }
 
         //Navigation

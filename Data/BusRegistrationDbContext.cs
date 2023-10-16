@@ -9,7 +9,7 @@ namespace bus_registration.Data
 {
     public class BusRegistrationDbContext :DbContext
     {
-        public BusRegistrationDbContext(DbContextOptions dbContextOptions):base(dbContextOptions)
+        public BusRegistrationDbContext(DbContextOptions<BusRegistrationDbContext> options):base(options)
         {
             
         }

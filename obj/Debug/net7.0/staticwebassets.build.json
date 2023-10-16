@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nXJCl4on1lyUUE2PUutVWmWit3LVQq4k9mPtmBWk2Cc=",
+  "Source": "bus-registration",
+  "BasePath": "_content/bus-registration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
